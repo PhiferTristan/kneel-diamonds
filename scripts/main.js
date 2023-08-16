@@ -14,17 +14,14 @@ const render = async () => {
 
         <article class="choices">
             <section class="choices__metals options">
-                <h2>Metals</h2>
                 ${metalOptionsHTML}
             </section>
 
             <section class="choices__sizes options">
-                <h2>Sizes</h2>
                 ${styleOptionsHTML}
             </section>
 
             <section class="choices__styles options">
-                <h2>Styles</h2>
                 ${sizeOptionsHTML}
             </section>
         </article>
