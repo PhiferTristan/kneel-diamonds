@@ -33,6 +33,6 @@ export const savePlacedOrder = async () => {
 
   const response = await fetch("http://localhost:8088/orders", postOptions);
 
-  const customEvent = new CustomEvent("newOrderCreated");
+  const customEvent = new CustomEvent("newOrderPlaced");
   document.dispatchEvent(customEvent);
 };
